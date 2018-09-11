@@ -40,4 +40,15 @@ public class TestCalculator
         // Act = Action
         int returnResult = Calculator.add(arg1,arg2);
     }
+
+    @Test
+    public void testFailed()
+    {
+        // Arrange = Organiser
+        int arg1 = 2;
+        int arg2 = 1;
+
+        // Act = Action
+        Assert.assertEquals(arg1, arg2);
+    }
 }
